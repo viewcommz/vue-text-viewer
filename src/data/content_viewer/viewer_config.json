@@ -1,0 +1,104 @@
+{
+  "font_family": [{
+    "value": "NanumMyeongjoRegular",
+    "text": "나눔명조"
+  },
+  {
+    "value": "NanumGothicRegular",
+    "text": "나눔고딕"
+  },
+  {
+    "value": "KoPubWorldBatangMedium",
+    "text": "Kopub바탕"
+  },
+  {
+    "value": "KoPubWorldDotumMedium",
+    "text": "Kopub돋움"
+  },
+  {
+    "value": "NotoSerifKRRegular",
+    "text": "본명조"
+  },
+  {
+    "value": "NotoSansKRRegular",
+    "text": "본고딕"
+  }],
+  "font_size": [{
+    "disp": "1",
+    "size": "xx-small"
+  },
+  {
+    "disp": "2",
+    "size": "x-small"
+  },
+  {
+    "disp": "3",
+    "size": "small"
+  },
+  {
+    "disp": "4",
+    "size": "medium"
+  },
+  {
+    "disp": "5",
+    "size": "large"
+  },
+  {
+    "disp": "6",
+    "size": "x-large"
+  },
+  {
+    "disp": "7",
+    "size": "xx-large"
+  }],
+  "line_height": [{
+    "disp": "1",
+    "height": "1.5em"
+  },
+  {
+    "disp": "2",
+    "height": "2em"
+  },
+  {
+    "disp": "3",
+    "height": "2.5em"
+  },
+  {
+    "disp": "4",
+    "height": "3em"
+  },
+  {
+    "disp": "5",
+    "height": "3.5em"
+    }],
+    "bg_color": [{
+    "disp": "0",
+    "color": "#F5F5F5",
+    "dark" : false
+  },
+  {
+    "disp": "1",
+    "color": "#ECE6CC",
+    "dark" : false
+  },
+  {
+    "disp": "2",
+    "color": "#A3CCA3",
+    "dark" : false
+  },
+  {
+    "disp": "3",
+    "color": "#D6E6F0",
+    "dark" : false
+  },
+  {
+    "disp": "4",
+    "color": "#0C374D",
+    "dark" : true
+  },
+  {
+    "disp": "5",
+    "color": "#2D2D2D",
+    "dark" : true
+    }]
+  }

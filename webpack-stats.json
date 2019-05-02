@@ -1,0 +1,1 @@
+{"status":"error","publicPath":"http://localhost:9000/","error":"ModuleNotFoundError","message":"Module not found: Error: Can't resolve '@/components/core/View' in 'C:\\Project\\vue-text-viewer\\src'"}

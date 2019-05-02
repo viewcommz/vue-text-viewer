@@ -1,0 +1,136 @@
+$font_path: '~@/fonts/';
+
+@font-face {
+  font-family: 'Sam3';
+  src:  url($font_path + 'sam3.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : optimizeLegibility;
+};
+@font-face {
+  font-family: 'BR';
+  src:  url($font_path + 'br.otf') format('opentype');
+  font-style: normal;
+  text-rendering : optimizeLegibility;
+};
+@font-face {
+  font-family: 'Scdream';
+  src:  url($font_path + 'scdream.otf') format('opentype');
+  font-style: normal;
+  text-rendering : optimizeLegibility;
+};
+@font-face {
+  font-family: 'SpoqaHanSansBold';
+  src:  url($font_path + 'SpoqaHanSansBold.woff2') format('woff2'),
+        url($font_path + 'SpoqaHanSansBold.woff') format('woff'),
+        url($font_path + 'SpoqaHanSansBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldBatangLight';
+  src:  url($font_path + 'KoPubWorldBatangLight.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldBatangBold';
+  src:  url($font_path + 'KoPubWorldBatangBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldBatangMedium';
+  src:  url($font_path + 'KoPubWorldBatangMedium.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldDotumLight';
+  src:  url($font_path + 'KoPubWorldDotumLight.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldDotumMedium';
+  src:  url($font_path + 'KoPubWorldDotumMedium.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'KoPubWorldDotumBold';
+  src:  url($font_path + 'KoPubWorldDotumBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumMyeongjoExtraBold';
+  src:  url($font_path + 'NanumMyeongjoExtraBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumMyeongjoBold';
+  src:  url($font_path + 'NanumMyeongjoBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumMyeongjoRegular';
+  src:  url($font_path + 'NanumMyeongjoRegular.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumGothicExtraBold';
+  src:  url($font_path + 'NanumGothicExtraBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumGothicBold';
+  src:  url($font_path + 'NanumGothicBold.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NanumGothicRegular';
+  src:  url($font_path + 'NanumGothicRegular.ttf') format('truetype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NotoSansKRRegular';
+  src:  url($font_path + 'NotoSansKRRegular.otf') format('opentype');
+  font-style: normal;
+  text-rendering : auto;
+};
+@font-face {
+  font-family: 'NotoSerifKRRegular';
+  src:  url($font_path + 'NotoSerifKRRegular.otf') format('opentype');
+  font-style: normal;
+  text-rendering : auto;
+};
+
+$Sam3: 'Sam3', sans-serif;
+$BR: 'BR', sans-serif;
+$Scdream: 'Scdream', sans-serif;
+$SpoqaHanSansBold: 'SpoqaHanSansBold', sans-serif;
+$SpoqaHanSansRegular: 'SpoqaHanSansRegular', sans-serif;
+$SpoqaHanSansLight: 'SpoqaHanSansLight', sans-serif;
+$SpoqaHanSansThin: 'SpoqaHanSansThin', sans-serif;
+$KoPubWorldBatangLight: 'KoPubWorldBatangLight', sans-serif;
+$KoPubWorldBatangBold: 'KoPubWorldBatangBold', sans-serif;
+$KoPubWorldBatangMedium: 'KoPubWorldBatangMedium', sans-serif;
+$KoPubWorldDotumLight: 'KoPubWorldDotumLight', sans-serif;
+$KoPubWorldDotumMedium: 'KoPubWorldDotumMedium', sans-serif;
+$KoPubWorldDotumBold: 'KoPubWorldDotumBold', sans-serif;
+$NanumMyeongjoExtraBold: 'NanumMyeongjoExtraBold', sans-serif;
+$NanumGothicRegular: 'SpoqaNanumGothicRegularHanSansThin', sans-serif;
+$NanumMyeongjoBold: 'NanumMyeongjoBold', sans-serif;
+$NanumGothicBold: 'NanumGothicBold', sans-serif;
+$NanumGothicExtraBold: 'NanumGothicExtraBold', sans-serif;
+$NanumMyeongjoRegular: 'NanumMyeongjoRegular', sans-serif;
+$NotoSansKRRegular: 'NotoSansKRRegular', sans-serif;
+$NotoSerifKRRegular: 'NotoSerifKRRegular', sans-serif;
+$UhBeeRyuga: 'UhBeeRyuga', sans-serif;
+$SDMiSaeng: 'SDMiSaeng', sans-serif;
